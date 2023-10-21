@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}} Convertor</title></title>
+    <link href ="{{url_for('static',filename='styles/style.css')}}" rel="stylesheet" />
+</head>
+<body>
+    <hi>{{title}} Convertor</title>
+    </hi>
+    <p>{{ status }} and {{ temp }} </p>
+    <p>Feels like{{ feels_like }} </p>
+    <form action="/convertor">
+        <input type="text" name="city" id="city" placeholder="Enter a country"/>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
